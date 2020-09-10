@@ -119,7 +119,6 @@ setInterval(updateClock,tick);
 
 //party time button
 var partyButton = document.getElementById('smash');
-
 //get the smash button to work
 var partyStatus = function(){
 
@@ -136,7 +135,6 @@ partyStatus();
 
 //smoke time button
 var blazeButton = document.getElementById('blaze');
-
 //get the balzin button to work
 var smokingTime = function(){
 
@@ -149,4 +147,4 @@ var smokingTime = function(){
 };
 //create smoke button handeler
 blazeButton.addEventListener('click',smokingTime);
-smokeTime();
+smokingTime();
