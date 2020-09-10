@@ -1,0 +1,46 @@
+h1{
+    position: relative;
+    left : 700px;
+    color: black;
+    font-family: cursive;
+}
+
+h4{
+    position: relative;
+    left : 700px;
+    font-family: fantasy;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#currentTime{
+    position: relative;
+    left : 140px;
+}
+/* img{
+    position: relative;
+    left : 750px;
+} */
+
+/* blockquote{
+    position: relative;
+    left : 800px;
+} */
+
+button{
+    position: relative;
+    left : 820px;
+}
+.center{
+  margin: auto;
+  width: 23%;
+  padding: 10px;
+}
+/*Button style, for later development*/
+/* .buttonCenter{
+    margin: auto;
+  width: 23%;
+  padding: 10px;
+} */
