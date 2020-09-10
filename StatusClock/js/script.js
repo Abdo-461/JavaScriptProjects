@@ -67,12 +67,12 @@
      var photo = document.getElementById("photo");
 
      //blazing time
-     if(time == smokeTime){
-         photoDescription = "images/smoke.jpg";
-         status = "Blazin!";
-     }
+    //  if(time == smokeTime){
+    //      photoDescription = "images/smoke.jpg";
+    //      status = "Blazin!";
+    //  }
      //wake up time
-     else if(time == wakeUpTime){
+      if(time == wakeUpTime){
          photoDescription = "images/wake.jpg";
          status = "Waking up now!";
      }
@@ -82,24 +82,24 @@
          status = "Yum Yum time!";
      }
      //party time
-     else if(time == partyTime){
-         photoDescription = "images/party.jpeg";
-         status = "Out to Party!!!!!";
-     }
+    //  else if(time == partyTime){
+    //      photoDescription = "images/party.jpeg";
+    //      status = "Out to Party!!!!!";
+    //  }
      //ungodly time
      else if(unGodlyHour){
          photoDescription = "images/finger.jpeg";
-         status = "Dont even think of me mate!";
+         status = "Don't be offended,you are the one working at night mate!";
      }
      //dont dirturb abdo time
      else if(time >= dontDisturbAbdoTime){
          photoDescription = "images/dontdisturbabdotime.jpeg";
-         status = "Fuck off mate, I am out";
+         status = "End of Day, I am out";
      }
      //any other time
      else{
          photoDescription = "images/normal.jpeg";
-         status = "What's up mate?";
+         status = "I am here for a cool chat! Hit me up!";
      }
      
      //show approprriate status to time
